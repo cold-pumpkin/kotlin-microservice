@@ -1,0 +1,4 @@
+spring:
+  jackson:
+    default-property-inclusion:
+      NON_NULL  # null 아닌 값만 직렬화
